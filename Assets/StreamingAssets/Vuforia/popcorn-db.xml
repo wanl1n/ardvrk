@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="dlsu-logo" size="1.000000 1.014955" />
+    <ImageTarget name="Aside" size="1.000000 1.759531" />
+    <ImageTarget name="Astarion" size="1.000000 1.272727" />
+  </Tracking>
+</QCARConfig>

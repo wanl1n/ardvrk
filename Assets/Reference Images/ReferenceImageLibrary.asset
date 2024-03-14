@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5052476099975031246
+  m_GuidHigh: 10174642906473803942
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5241083554202149244
+      m_GuidHigh: 3215099817297377160
+    m_SerializedTextureGuid:
+      m_GuidLow: 1780268627626376027
+      m_GuidHigh: 10473813811880755051
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: astarion
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4963908737713290957
+      m_GuidHigh: 5232222301654792834
+    m_SerializedTextureGuid:
+      m_GuidLow: 12498627825755526873
+      m_GuidHigh: 1631059674490742923
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: cobblestone
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5657803068474573268
+      m_GuidHigh: 1395281141714301085
+    m_SerializedTextureGuid:
+      m_GuidLow: 5063224094418906460
+      m_GuidHigh: 12632952894432158008
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: dlsu
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4785741730243720197
+      m_GuidHigh: 2025061081852188331
+    m_SerializedTextureGuid:
+      m_GuidLow: 17565391957667960780
+      m_GuidHigh: 15530054041840875016
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: dog
+    m_Texture: {fileID: 0}
