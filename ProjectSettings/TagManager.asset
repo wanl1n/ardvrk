@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Button
   - Spawner
+  - SpawnedMap
   layers:
   - Default
   - TransparentFX
