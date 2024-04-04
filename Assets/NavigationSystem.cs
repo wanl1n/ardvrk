@@ -8,6 +8,7 @@ public class NavigationSystem : MonoBehaviour
 {
     [SerializeField] private GameObject _location;
     [SerializeField] private GameObject _destination;
+    [SerializeField] private GameObject _scale;
     private int _locationValue;
     private int _destinationValue; //0 - RL , 1 - GT , 2 - MRR
     [SerializeField] private List<GameObject> _RLPaths = new List<GameObject>();
@@ -77,6 +78,12 @@ public class NavigationSystem : MonoBehaviour
                 this._MRRPaths[1].SetActive(true);
             }
         }
+    }
+
+    public void UpdateScale()
+    {
+        float scale = this._scale.GetComponent<Slider>().value;
+        this.gameObject.transform.localScale = new Vector3(scale, scale, scale);
     }
     // Start is called before the first frame update
     void Start()
