@@ -16,15 +16,13 @@ public class MainMenuManager : MonoBehaviour
         Debug.Log("Continue");
         SceneManager.LoadScene("MainScene");
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void GoToNavigationMode()
     {
-        
+        SceneManager.LoadScene("Navigation");
+    }
+    public void GoToTourMode()
+    {
+        SceneManager.LoadScene("MiniTour");
     }
 }
