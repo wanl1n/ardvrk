@@ -85,6 +85,21 @@ public class NavigationSystem : MonoBehaviour
         float scale = this._scale.GetComponent<Slider>().value;
         this.gameObject.transform.localScale = new Vector3(scale, scale, scale);
     }
+
+    public void SetLocationRL()
+    {
+        this._location.GetComponent<TMP_Dropdown>().value = 0;
+    }
+
+    public void SetLocationGT()
+    {
+        this._location.GetComponent<TMP_Dropdown>().value = 1;
+    }
+
+    public void SetLocationMRR()
+    {
+        this._location.GetComponent<TMP_Dropdown>().value = 2;
+    }
     // Start is called before the first frame update
     void Start()
     {

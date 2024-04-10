@@ -673,7 +673,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1534019298}
+        m_TargetAssemblyTypeName: NavigationSystem, Assembly-CSharp
+        m_MethodName: SetLocationRL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -835,6 +847,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 862486822290806297, guid: 2b3d59b4a6b58e440a41fa426622bfe9, type: 3}
   m_PrefabInstance: {fileID: 321473526}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &321473528 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3656820031597307155, guid: 2b3d59b4a6b58e440a41fa426622bfe9, type: 3}
+  m_PrefabInstance: {fileID: 321473526}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28517195ae99d37449169640585aa4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &430730468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,7 +1353,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 321473528}
+        m_TargetAssemblyTypeName: NavigationSystem, Assembly-CSharp
+        m_MethodName: SetLocationGT
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -1510,6 +1545,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 862486822290806297, guid: f95d77d25d364e64ca3ede27a75e4349, type: 3}
   m_PrefabInstance: {fileID: 811003367}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &811003369 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3656820031597307155, guid: f95d77d25d364e64ca3ede27a75e4349, type: 3}
+  m_PrefabInstance: {fileID: 811003367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28517195ae99d37449169640585aa4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &817601286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3112,7 +3158,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 811003369}
+        m_TargetAssemblyTypeName: NavigationSystem, Assembly-CSharp
+        m_MethodName: SetLocationMRR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
